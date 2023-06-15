@@ -1,0 +1,178 @@
+body {
+  height: 100vh;
+  background: teal !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+
+
+.card {
+  overflow: hidden;
+  border: 0 !important;
+  border-radius: 20px !important;
+  -webkit-box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.img-left {
+  width: 45%;
+  background: url('../image/wordlabmainlogo.png') center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: turquoise;
+}
+
+.card-body {
+  padding: 3rem;
+  background: turquoise !important;
+}
+
+.title {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-input {
+  position: relative;
+}
+
+.form-input input {
+  width: 100%;
+  height: 45px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #00000020;
+  border-radius: 50px;
+  outline: none;
+  
+}
+
+.form-input span {
+  position: absolute;
+  top: 10px;
+  padding-left: 15px;
+  color: green;
+}
+
+.form-input input::-webkit-input-placeholder {
+  color: black;
+  padding-left: 0px;
+}
+
+.form-input input:-ms-input-placeholder {
+  color: black;
+  padding-left: 0px;
+}
+
+.form-input input::-ms-input-placeholder {
+  color: black;
+  padding-left: 0px;
+}
+
+.form-input input::placeholder {
+  color: black;
+  padding-left: 0px;
+}
+
+.form-input input:focus, .form-input input:valid {
+  border: 2px solid green;
+  background-color: white !important;
+}
+
+.form-input input:focus::-webkit-input-placeholder {
+  color: #454b69;
+}
+
+.form-input input:focus:-ms-input-placeholder {
+  color: #454b69;
+}
+
+.form-input input:focus::-ms-input-placeholder {
+  color: #454b69;
+}
+
+.form-input input:focus::placeholder {
+  color: #454b69;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: green !important;
+  border: 0px;
+}
+
+.form-box button[type="submit"] {
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: green;
+  color: #fff;
+  font-size: 90%;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 12px;
+}
+
+.form-box button[type="submit"]:hover {
+  background: green;
+}
+
+.forget-link, .register-link {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.forget-link:hover, .register-link:hover {
+  color: #0069d9;
+  text-decoration: none;
+}
+
+.form-box .btn-social {
+  color: white !important;
+  border: 0;
+  font-weight: bold;
+}
+
+.form-box .btn-google {
+  background: #da3f34;
+}
+
+.form-box .btn-google:hover {
+  background: #bf3b31;
+}
+
+.wordlabtext {
+  color: black;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.title span {
+  color: green;
+}
+/*# sourceMappingURL=main.css.map */
